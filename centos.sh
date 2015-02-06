@@ -1,7 +1,4 @@
 #!/bin/bash
-cd 
-mkdir horizon
-cd horizon
 OPT=$1
 case $OPT in
   -c5|-C5) 
@@ -24,6 +21,9 @@ case $OPT in
     exit 0	
     ;;
 esac
+cd 
+mkdir horizon
+cd horizon
 yum install jq -y
 yum install python -y
 yum install java-1.7.0-openjdk.x86_64 -y
