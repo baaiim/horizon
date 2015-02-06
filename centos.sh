@@ -89,13 +89,6 @@ chmod +x /opt/auto.sh
  sed -i "s#.*touch.*#sh /opt/auto.sh\n&#" /etc/rc.d/rc.local
 sleep 1
 sh /opt/auto.sh
-echo "
-DONATE :
-=============================================================
-//       CREDITED : ANDIK IBRAHIMI                         //
-//   NHZ : NHZ-WFZE-R2L9-M4LN-FSWVK                        //
-============================================================="
-sleep 3
 history -c
 reboot
 exit 0
