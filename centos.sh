@@ -37,7 +37,7 @@ IP=$(wget -qO- ifconfig.me/ip)
 sed -i s/nhz.myAddress=/nhz.myAddress=$IP/g /root/horizon/hz/conf/nhz-default.properties
 chmod +x run.sh
 screen -d -m -S hallmarked ./run.sh
-echo "WAITING FOR WALLET ON (30 Second)"
+echo "WAIT FOR WALLET UP (30 Second)"
 echo -ne '[                                     ](0%)\r'
 sleep 2
 echo -ne '[==>                                  ](5%)\r'
