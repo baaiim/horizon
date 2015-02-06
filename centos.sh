@@ -87,8 +87,6 @@ screen -d -m -S hallmark ./run.sh"> '/opt/auto.sh'
 chmod +x /opt/auto.sh
  sed -i "s#.*touch.*#sh /opt/auto.sh\n&#" /etc/rc.local
  sed -i "s#.*touch.*#sh /opt/auto.sh\n&#" /etc/rc.d/rc.local
-sleep 1
-sh /opt/auto.sh
 history -c
 reboot
 exit 0
