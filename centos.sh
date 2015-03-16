@@ -2,7 +2,7 @@
 cd 
 mkdir horizon
 cd horizon
-yum install epel-release -y
+yum install epel-release -y 
 yum install jq -y
 yum install python -y
 yum install java-1.7.0-openjdk.x86_64 -y
