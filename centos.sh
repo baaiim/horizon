@@ -9,7 +9,7 @@ yum install java-1.7.0-openjdk.x86_64 -y
 yum install unzip -y
 yum install screen -y
 yum install curl -y
-wget http://downloads.horizonplatform.io/binaries/hz_v3.8.zip
+wget https://downloads.horizonplatform.io/binaries/hz_v3.8.zip
 unzip hz*.zip 
 cd hz
 IP=$(wget -qO- ifconfig.me/ip)
